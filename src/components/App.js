@@ -6,6 +6,7 @@ import './../styles/App.css';
 import Header from './Header';
 import LinkList from './LinkList';
 import CreateLink from './CreateLink';
+import Login from './Login';
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/' component={LinkList} />
             <Route exact path='/create' component={CreateLink} />
+            <Route exact path='/login' component={Login} />
           </Switch>
         </div>
       </div>
